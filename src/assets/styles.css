@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url(./background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Common */
+.login-button {
+  width: 100%;
+  background: #3498DB;
+  padding: 7px;
+  border-radius: 3px;
+  transition: .3s ease-in-out;
+}
+
+.login-button:hover {
+  background: #85C1E9;
+}
+
+.toggle-password {
+  font-size: 20px;
+}
+
+/* Login */
+#login {
+  position: relative;
+  color: #ffffff;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.65);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+label {
+  font-size: 12px;
+  transition: .3s ease-in-out;
+  color: #ffffff;
+}
+
+input {
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 8px;
+  background: none;
+  border-bottom: 1px solid #85C1E9;
+  transition: .3s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 1px solid #3498DB;
+  font-size: 17px;
+}
